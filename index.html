@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <!-- PHẦN ĐẦU TRANG (HEAD) -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cấu trúc có chú thích</title>
+  <meta charset="UTF-8">
+  <title>Cấu Trúc Có Chú Thích</title>
 </head>
 <body>
 
-    <!-- PHẦN NỘI DUNG TRANG WEB -->
-    <h1>Chào mừng đến với trang web của tôi</h1>
+  <header>
+    <h1>Học Cấu Trúc HTML</h1>
+  </header>
 
-    <p>
-        Đây là ví dụ về trang HTML có sử dụng chú thích để chia các khu vực mã nguồn.
-    </p>
+  <main>
+    <h3>Danh sách bài học</h3>
+    <ul>
+      <li>Thẻ HTML cơ bản</li>
+      <li>Bình luận trong code</li>
+    </ul>
 
-    <!-- KẾT THÚC PHẦN NỘI DUNG -->
+    <h3>Bảng tiến độ</h3>
+    <table border="1">
+      <tr>
+        <th>Bài học</th>
+        <th>Trạng thái</th>
+      </tr>
+      <tr>
+        <td>Bài 1</td>
+        <td>Xong</td>
+      </tr>
+    </table>
+
+    <br>
+    <button id="btnClick">Bấm thử</button>
+  </main>
+
+  <script>
+    document.getElementById('btnClick').onclick = function() {
+      alert('Thành công!');
+    };
+  </script>
 
 </body>
 </html>
