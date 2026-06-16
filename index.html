@@ -1,63 +1,24 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài tập cấu trúc có chú thích</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiểm tra tài nguyên hệ thống</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+  <main>
+    <h1>Hướng dẫn sửa lỗi không tải được tài nguyên (CSS/JS)</h1>
+    <p>Nếu giao diện không đổi màu hoặc các tính năng tương tác không hoạt động, hãy làm theo các bước sau:</p>
     
-    
-    
-    <header>
-        <h1>Tiêu đề trang web</h1>
-        <p>Đây là phần đầu trang</p>
-    </header>
+    <ol>
+      <li>Nhấn phím <strong>F12</strong> (hoặc chuột phải chọn <em>Kiểm tra / Inspect</em>) để mở bộ công cụ DevTools của trình duyệt.</li>
+      <li>Chuyển sang tab <strong>Console</strong>: Tìm các dòng thông báo lỗi màu đỏ (lỗi 404 Not Found) để xác định xem lỗi có phải do viết sai tên thư mục hoặc sai thuộc tính <code>href</code>/<code>src</code> hay không.</li>
+      <li>Chuyển sang tab <strong>Network</strong>: Tải lại trang (F5) và quan sát xem tệp <code>style.css</code> hoặc <code>script.js</code> có trạng thái tải thành công hay không.</li>
+    </ol>
+  </main>
 
-    
-    
-    
-    <main>
-        <h2>Nội dung chính</h2>
-
-        
-        <h3>Danh sách môn học</h3>
-        <ul>
-            <li>HTML cơ bản</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-
-        
-        <h3>Bảng điểm</h3>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>STT</th>
-                    <th>Môn học</th>
-                    <th>Kết quả</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>HTML & CSS</td>
-                    <td>Đạt yêu cầu</td>
-                </tr>
-            </tbody>
-        </table>
-    </main>
-
-    
-    <footer>
-        <p>&copy; 2026 Đỗ Phúc Khang</p>
-    </footer>
-
-    
-    <script>
-        console.log("Trang web cấu trúc có chú thích đã tải xong.");
-    </script>
-
+  <script src="js/script.js"></script>
 </body>
 </html>
